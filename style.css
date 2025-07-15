@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "LXGW Marker Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#bar {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    color: #f8f9fa;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #343a40;
+}
+
+#title {
+    padding-bottom: 2px;
+    transition: all 0.15s ease;
+}
+
+#title:hover {
+    letter-spacing: 0.5px;
+}
+
+#links a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.15s ease;
+}
+
+#links a:hover {
+    color: #f8f9fa;
+    text-shadow: #ffffff 0px 0px 5px;
+}
+
+#discord a {
+    text-decoration: none;
+    background-color: #343a40;
+    color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#discord a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    background-size: 200% 100%;
+    box-shadow: #ffffff 0px 0px 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: linear-gradient(0deg, #212529, #000814);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header p {
+    font-size: 20px;
+    font-family: "LXGW Marker Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #adb5bd;
+}
+
+header h1 {
+    transition: all 1s ease;
+}
+
+header h1:hover {
+    letter-spacing: 20px;
+}
+
+#welcome {
+    font-size: 100px;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+#star {
+    background: linear-gradient(90deg,  
+        #370617, 
+        #6a040f, 
+        #9d0208, 
+        #d00000, 
+        #dc2f02, 
+        #e85d04, 
+        #f48c06, 
+        #faa307, 
+        #ffba08,
+        #faa307, 
+        #f48c06, 
+        #e85d04, 
+        #dc2f02, 
+        #d00000, 
+        #9d0208, 
+        #6a040f, 
+        #370617
+
+    );
+    background-size: 400% 100%;
+    animation: gradientMove 5s linear infinite alternate;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 200% 0%;
+    }
+}
+
+#content {
+    height: 300px;
+    padding: 20px;
+    background-color: #212529;
+    color: #adb5bd;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#content h2 {
+    font-size: 30px;
+    color: #f8f9fa;
+    margin: 0 0 20px 50px;
+}
+
+#content p {
+    font-size: 20px;
+    margin: 0 50px 0 50px;
+}
+
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #212529;
+    font-family: sans-serif;
+}
+
+#features div {
+    width: 250px;
+    height: 450px;
+    color: #212529;
+    background-color: #f8f9fa;
+    margin: 10px 25px;
+    border-radius: 15px;
+    box-shadow: #f8f9fa 0px 0px 10px;
+}
+
+#features div:hover {
+    box-shadow: #adb5bd 0px 0px 20px;
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+#features div h1{
+    font-size: 25px;
+    margin: 15px;
+}
+
+#features div p {
+    height: 80px;
+    font-size: 18px;
+    margin: 15px;
+}
+
+#features div img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #212529;
+    color: #adb5bd;
+    text-align: center;
+    padding: 20px;
+}
