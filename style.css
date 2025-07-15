@@ -164,6 +164,7 @@ header h1:hover {
     justify-content: center;
     background-color: #212529;
     font-family: sans-serif;
+    padding-bottom: 100px;
 }
 
 #features div {
@@ -201,6 +202,63 @@ header h1:hover {
     border-radius: 15px;
 }
 
+#idea {
+    background-color: #212529;
+    color: #f8f9fa;
+    font-family: "Noto Sans TC", sans-serif;
+    padding-bottom: 100px;
+}
+
+#idea h1 {
+    font-size: 30px;
+    margin: 0 0 20px 50px;
+    padding-top: 20px;
+}
+
+#idea p {
+    font-size: 20px;
+    margin: 0 50px 0 50px;
+    color: #adb5bd;
+}
+
+#join {
+    text-align: center;
+    height: 500px;
+    background-color: #212529;
+    color: #f8f9fa;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+#join h1 {
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+#join p {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#join a {
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #343a40;
+    color: #f8f9fa;
+    font-size: 40px;
+    padding: 10px 30px 15px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+#join a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    background-size: 200% 100%;
+    box-shadow: #ffffff 0px 0px 50px;
+    scale: 1.4;
+}
+
 footer {
     background-color: #212529;
     color: #adb5bd;
@@ -210,105 +268,139 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-  #bar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
+    #bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
 
-  #title {
-    margin-top: 10px;
-    border-style: solid;
-    border-width: 0 0 3px 0;
-    border-color: #343a40;
-  }
+    #title {
+        margin-top: 10px;
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: #343a40;
+    }
 
-  #links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    #links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-  #links a {
-    margin: 8px 15px 8px 15px;
-  }
+    #links a {
+        margin: 8px 15px 8px 15px;
+    }
 
-  #discord {
-    margin-top: 18px;
-    margin-bottom: 12px;
-  }
+    #discord {
+        margin-top: 18px;
+        margin-bottom: 12px;
+    }
 
-  header {
-    height: auto;
-    padding: 40px 20px;
-    text-align: center;
-  }
+    header {
+        height: 400px;
+        padding: 40px 20px;
+        text-align: center;
+    }
 
-  #welcome {
-    font-size: 40px;
-  }
+    #welcome {
+        font-size: 40px;
+    }
 
-  #welcome:hover {
-    letter-spacing: normal;
-  }
+    #welcome:hover {
+        letter-spacing: normal;
+    }
 
-  header p {
-    font-size: 15px;
-    margin: 0 15px 0 15px;
-  }
+    header p {
+        font-size: 15px;
+        margin: 0 15px 0 15px;
+    }
 
-  #content {
-    padding: 30px 20px;
-    height: auto;
-  }
+    #content {
+        padding: 30px 20px;
+        height: auto;
+    }
 
-  #content h2 {
-    font-size: 24px;
-    margin-left: 0;
-    text-align: center;
-  }
+    #content h2 {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
 
-  #content p {
-    font-size: 16px;
-    margin: 0;
-    text-align: center;
-  }
+    #content p {
+        font-size: 16px;
+        margin: 0;
+    }
 
-  #features {
-    display: flex;
-    justify-content: space-around;
-  }
+    #features {
+        display: flex;
+        justify-content: space-around;
+    }
 
-  #features div {
-    width: 40%;
-    height: auto;
-    margin: 15px 10px;
-  }
+    #features div {
+        width: 40%;
+        height: auto;
+        margin: 15px 10px;
+    }
 
-  #features div:hover {
-    transform: none;
-    box-shadow: #adb5bd 0px 0px 15px;
-  }
+    #features div:hover {
+        transform: none;
+        box-shadow: #adb5bd 0px 0px 15px;
+    }
 
-  #features div h1 {
-    font-size: 24px;
-    margin: 10px;
-  }
+    #features div h1 {
+        font-size: 24px;
+        margin: 10px;
+    }
 
-  #features div p {
-    font-size: 15px;
-    margin: 10px;
-    height: 70px;
-  }
+    #features div p {
+        font-size: 15px;
+        margin: 10px;
+        height: 70px;
+    }
 
-  #features div img {
-    width: 80%;
-    height: auto;
-    margin-bottom: 10px;
-  }
+    #features div img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
 
-  footer {
-    font-size: 14px;
-    padding: 15px;
-  }
+    #idea {
+        padding: 30px 20px;
+    }
+
+    #idea h1 {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #idea p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    #join {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #join h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    #join p {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    #join a {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 15px;
+    }
 }
